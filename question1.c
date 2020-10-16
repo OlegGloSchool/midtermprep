@@ -1,11 +1,19 @@
 
 #include <stdio.h>
+#include "question1.h"
 
 int main(){
 
-    int num1 = 1;
+    int var = 0;
 
-    printf("number is: %d\n",num1);
+    var = func1();
+
+    printf("number is: %d\n",var);
 
     return 0;
+}
+
+int func1()
+{
+    return 123;
 }
